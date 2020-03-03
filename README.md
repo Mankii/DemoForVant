@@ -1,4 +1,9 @@
-# vant-test
+Vant for web框架的所有组件demo页面。
+纯vue demo页面。
+
+```
+官方的完整文档+demo项目地址：https://github.com/youzan/vant
+```
 
 ## Project setup
 ```
