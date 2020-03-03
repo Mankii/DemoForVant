@@ -70,8 +70,5 @@
 </script>
 
 <style>
-	.demo-button .van-button--small,
-	.demo-button .van-button--normal:not(:last-child) {
-		margin-right: 16px;
-	}
+
 </style>

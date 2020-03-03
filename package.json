@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vant/touch-emulator": "^1.2.0",
     "core-js": "^3.6.4",
     "vant": "^2.5.2",
     "vue": "^2.6.11",

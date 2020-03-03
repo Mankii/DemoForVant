@@ -1,5 +1,5 @@
 <template>
-	<page>
+	<page class="demo-icon">
 		<van-tabs v-model="active">
 			<van-tab title="基本用例">
 					<d-block title="基础用法">
@@ -48,8 +48,8 @@
 </script>
 
 <style>
-	.van-icon {
-		margin: 16px 0 16px;
+	.demo-icon .van-icon {
+		margin: 0 16px;
 		color: #323233;
 		font-size: 32px;
 	}

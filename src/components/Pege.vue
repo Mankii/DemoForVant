@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="demo-page">
 		<div class="demo-nav" style="">
 			<div class="demo-nav__title">{{title}}</div>
 			<svg viewBox="0 0 1000 1000" class="demo-nav__back" @click="pageBack()">
