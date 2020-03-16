@@ -1,5 +1,5 @@
 <template>
-	<page>
+	<page class="demo-grey">
 		<d-block title="选择完整时间">
 			<van-datetime-picker
 				v-model="currentDate"

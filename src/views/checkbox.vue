@@ -96,6 +96,9 @@
 </script>
 
 <style>
+	.van-checkbox{
+		margin-bottom: 8px;
+	}
 	.demo-checkbox img {
 		height: 20px;
 	}

@@ -14,40 +14,56 @@
 </script>
 
 <style>
-	p {
-		margin: 0;
+	html{
+		font-size: 16px;
 	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		margin: 0;
-		font-size: inherit;
-	}
-
-	ul,
-	ol {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	body {
-		min-width: 100vw;
-	}
-
-	::-webkit-scrollbar {
-		width: 0;
-		background: transparent;
-	}
-
+body {
+  min-width: 1100px;
+  margin: 0;
+  overflow-x: auto;
+  color: #323233;
+  font-size: 16px;
+  font-family: PingFang SC, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f8fa;
+  -webkit-font-smoothing: antialiased;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.van-doc-row {
+  width: 100%;
+}
+@media (min-width: 1680px) {
+.van-doc-row {
+    width: 1680px;
+    margin: 0 auto;
+}
+}
+body {
+  min-width: 100vw;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
 	.p-10 {
 		padding: 10px;
 	}

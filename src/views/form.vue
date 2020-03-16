@@ -1,5 +1,5 @@
 <template>
-	<page>
+	<page class="demo-grey">
 		<d-block title="基础用法">
 			<van-form @submit="onSubmit">
 				<van-field
